@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Join BRPV — Membership Application</title>
+<meta name="description" content="Apply to join Busoga Region Patriotic Volunteers as a volunteer. Submit your details and area of interest to get involved in BRPV activities across Busoga.">
+<meta property="og:title" content="Join BRPV">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://BRPV_PLACEHOLDER_DOMAIN/membership.html">
+<link rel="icon" type="image/svg+xml" href="assets/logo/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="header-mount"></div>
+
+<main>
+<section class="page-header">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> › Join</div>
+    <h1>Join BRPV</h1>
+    <p>Become a volunteer and help serve communities across the Busoga region.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <div class="reveal">
+      <span class="eyebrow">Volunteer with BRPV</span>
+      <h2>Why Join?</h2>
+      <p>BRPV brings together volunteers committed to patriotism, unity and community service across the Busoga region. As a volunteer, you can take part in regional mobilisation, community engagement and youth activities.</p>
+      <ul class="responsibilities">
+        <li>Take part in community service and volunteer activities</li>
+        <li>Support regional mobilisation across Busoga districts</li>
+        <li>Engage young people in patriotic values</li>
+        <li>Be part of a growing regional volunteer movement</li>
+      </ul>
+     
+    </div>
+    <div class="split-media reveal" data-delay="1"><img src="assets/IMG-20261002-WA0094.jpg" alt="Volunteers" loading="lazy"></div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container narrow">
+    <div class="form-card reveal">
+      <h2 style="margin-bottom:.25rem;">Membership Application</h2>
+      <p class="muted" style="margin-bottom:1rem;">Fields marked <span class="req">*</span> are required.</p>
+      <form class="form" id="membershipForm" method="POST" action="MEMBERSHIP_FORMSPREE_ENDPOINT_PLACEHOLDER" autocomplete="off">
+        <div class="form-row">
+          <div class="field"><label for="m_first">First Name <span class="req">*</span></label><input type="text" id="m_first" name="first_name" required><span class="error">This field is required.</span></div>
+          <div class="field"><label for="m_last">Last Name <span class="req">*</span></label><input type="text" id="m_last" name="last_name" required><span class="error">This field is required.</span></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label for="m_phone">Phone <span class="req">*</span></label><input type="tel" id="m_phone" name="phone" required><span class="error">This field is required.</span></div>
+          <div class="field"><label for="m_email">Email <span class="req">*</span></label><input type="email" id="m_email" name="email" required><span class="error">Please enter a valid email.</span></div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="m_district">District <span class="req">*</span></label>
+            <select id="m_district" name="district" required>
+              <option value="">Select…</option>
+              <option>Jinja</option><option>Jinja City</option><option>Kamuli</option>
+              <option>Kaliro</option><option>Buyende</option><option>Iganga</option>
+              <option>Mayuge</option><option>Bugiri</option><option>Namayingo</option>
+              <option>Namutumba</option><option>Luuka</option><option>Kibuku</option>
+              <option>Budaka</option><option>Butaleja</option><option>Other</option>
+            </select>
+            <span class="error">Please select your district.</span>
+          </div>
+          <div class="field"><label for="m_subcounty">Sub-county</label><input type="text" id="m_subcounty" name="sub_county"></div>
+        </div>
+        <div class="field">
+          <label for="m_interest">Area of Interest <span class="req">*</span></label>
+          <select id="m_interest" name="area_of_interest" required>
+            <option value="">Select…</option>
+            <option>Community Engagement</option>
+            <option>Volunteer Activities</option>
+            <option>Youth Activities</option>
+            <option>Patriotism &amp; Civic Activities</option>
+            <option>Community Service</option>
+            <option>Leadership Engagement</option>
+            <option>Regional Mobilisation</option>
+            <option>Public Events</option>
+          </select>
+          <span class="error">Please select an area of interest.</span>
+        </div>
+        <div class="field">
+          <label for="m_message">Message</label>
+          <textarea id="m_message" name="message" placeholder="Tell us why you'd like to join BRPV (optional)"></textarea>
+        </div>
+        <div class="field">
+          <div class="checkbox">
+            <input type="checkbox" id="m_consent" name="consent" value="yes" required>
+            <label for="m_consent">I voluntarily submit this information to apply to join BRPV and consent to its processing in accordance with the organization's <a href="privacy.html">privacy notice</a>. <span class="req">*</span></label>
+          </div>
+          <span class="error">You must provide consent to submit this application.</span>
+        </div>
+        <button type="submit" class="btn btn--gold btn--lg btn--block">Submit Application</button>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<div id="footer-mount"></div>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://BRPV_PLACEHOLDER_DOMAIN/index.html</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://BRPV_PLACEHOLDER_DOMAIN/about.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://BRPV_PLACEHOLDER_DOMAIN/leadership.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://BRPV_PLACEHOLDER_DOMAIN/activities.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://BRPV_PLACEHOLDER_DOMAIN/districts.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://BRPV_PLACEHOLDER_DOMAIN/news.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://BRPV_PLACEHOLDER_DOMAIN/events.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://BRPV_PLACEHOLDER_DOMAIN/gallery.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://BRPV_PLACEHOLDER_DOMAIN/endorsement.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://BRPV_PLACEHOLDER_DOMAIN/membership.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://BRPV_PLACEHOLDER_DOMAIN/contact.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://BRPV_PLACEHOLDER_DOMAIN/privacy.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://BRPV_PLACEHOLDER_DOMAIN/disclaimer.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+</urlset>
